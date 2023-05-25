@@ -6,10 +6,25 @@
       "password": "Ankunavneet1",
       "isDoctor": false,
       "id": 1
+    },
+    {
+      "username": "Anku",
+      "email": "Anku@gmail.com",
+      "password": "Anku",
+      "isDoctor": false,
+      "id": 2
+    },
+    {
+      "username": "Anku123",
+      "email": "Anku@gmail.com",
+      "password": "Anku",
+      "isDoctor": false,
+      "id": 3
     }
   ],
-  "appointments":[
+  "appointments": [
     {
+      "id": 1,
       "name": "Jane Doe",
       "image": "https://example.com/doctor-image.jpg",
       "specialization": "Dermatologist",
@@ -20,7 +35,8 @@
       "fee": 150
     },
     {
-      "name": "Mark Johnson",
+      "id": 2,
+      "name": "Mark Johnson1",
       "image": "https://example.com/doctor-image.jpg",
       "specialization": "Pediatrician",
       "experience": 5,
@@ -30,5 +46,4 @@
       "fee": 100
     }
   ]
-  
 }
